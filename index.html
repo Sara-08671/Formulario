@@ -111,7 +111,6 @@
     <button id="btn" onclick="registrar()">Registrarse</button>
     <div id="msg"></div>
 
-    <div class="footer">¿Ya tienes cuenta? <a href="#">Inicia sesión</a></div>
   </div>
 
   <script>
@@ -162,7 +161,7 @@
         });
 
         msg.className = 'ok';
-        msg.textContent = '✓ Revisa tu correo para confirmar.';
+        msg.textContent = '✓ Registro exitoso.';
         btn.textContent = '¡Listo!';
       } catch (e) {
         msg.className = 'err';
